@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file .env index.js ",
+    "test": "node --env-file .env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godzzdeal/WatchTogether-v2.git"
+  },
+  "author": "godzzdeal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/godzzdeal/WatchTogether-v2/issues"
+  },
+  "homepage": "https://github.com/godzzdeal/WatchTogether-v2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "experss": "^0.0.1-security",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "socket.io": "^4.7.2"
+  }
+}
