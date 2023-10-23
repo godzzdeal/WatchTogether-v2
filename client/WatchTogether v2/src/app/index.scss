@@ -1,0 +1,26 @@
+@import "./styles/index.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.rotate {
+    width: 200px;
+    animation: rotate 10s infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(-360deg)
+    }
+  }
+
+//   .scale {
+//     -webkit-transition: -webkit-transform .8s ease-in-out;
+//     transition:         transform .8s ease-in-out;
+//   }
+
+//   .scale:hover {
+//     transform: scale();
+//     box-shadow: #fff;
+
+//     -webkit-transform: rotate(360deg) ;
+//     transform: rotate(360deg) scale(1.2);
+//   }
